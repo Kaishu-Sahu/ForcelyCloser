@@ -25,6 +25,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="129dp"
         android:padding="20dp"
-        android:text="For the proper functioning of this app please give accessebility service permission. To force close any other application press back button for 800 milli seconds. No root access required. "
+        android:text="For the proper functioning of this app please give accessebility service permission. To force close any other application press back button for 800 milliseconds. No root access required. "
         android:textAlignment="center" />
 </RelativeLayout>
