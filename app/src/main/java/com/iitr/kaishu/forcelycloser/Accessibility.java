@@ -15,7 +15,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 
 
-public class MainActivity extends AccessibilityService {
+public class Accessibility extends AccessibilityService {
     long inittime = 0;
     Runnable willrun;
     Handler hand;
@@ -121,7 +121,7 @@ public class MainActivity extends AccessibilityService {
             }
             if(mNode.getText().toString().contentEquals("OK")){
                 mNode.performAction(AccessibilityNodeInfo.ACTION_CLICK);
-                Toast.makeText(MainActivity.this, "Force closed "+showpakage, Toast.LENGTH_SHORT).show();
+                Toast.makeText(Accessibility.this, "Force closed "+showpakage, Toast.LENGTH_SHORT).show();
                 okactivity = false;
                 performGlobalAction(GLOBAL_ACTION_HOME);
             }
